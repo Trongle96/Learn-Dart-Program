@@ -53,7 +53,8 @@ main(List<String> args) {
 ```
 - Hàm **random()** dùng để lấy 1 số ngẫu nhiên. ví dụ về lấy 1 số ngẫu nhiên từ 1 đến 10 ta thực hiện như sau:
   ```Dart
-  main(List<String> args) {
+  main(List<String> args)
+  {
   int randomNumber = Random().nextInt(10) + 1;
   print(randomNumber); // Kết quả sẽ chạy trong khoảng min = 1 và max = 10.
 }
