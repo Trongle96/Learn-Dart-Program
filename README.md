@@ -57,8 +57,7 @@ main(List<String> args) {
   {
   int randomNumber = Random().nextInt(10) + 1;
   print(randomNumber); // Kết quả sẽ chạy trong khoảng min = 1 và max = 10.
-}
-```
+- Hàm **random()
 
   
 
