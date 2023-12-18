@@ -76,7 +76,18 @@ main(List<String> args) {
 }
 ```
 - Dùng hàm **insert(index, element)** để thêm phần từ vào 1 vị trí cụ thể, ngoài ra còn có thể dùng hàm **addAll()** và **insertAll()** để thêm nhiều phần tử 1 lúc với cách dùng tương tự.
-- Dùng hàm **remove(element)** để xóa phần tử theo đích danh ra khỏi List hoặc **remove(index)** để xóa phần tử theo vị trí trong List, **removeLast()** để xóa phần tử cuối cùng, **removeRange(start,end)** để xóa trong 1 range, **clear()** để xóa hết tất cả phần tử.
+- Dùng hàm **remove(element)** để xóa phần tử theo đích danh ra khỏi List hoặc **remove(index)** để xóa phần tử theo vị trí trong List, **removeLast()** để xóa phần tử cuối cùng, **removeRange(start,end)** để xóa trong 1 range, **clear()** để xóa hết tất cả phần tử, hàm **replaceRange()** để thay thế phần tử.
+- Cách duyệt và in lần lượt từng phần tử trong 1 list như sau:
+ ```Dart 
+  main(List<String> args) {
+  List<String> names = ['Lê', 'Hoàng', 'Trọng'];
+  names.forEach((element) {
+    print(element);
+  });
+}
+```
+- Hàm forEach ở trên là có chức năng duyệt lần lượt từng phần tử và lấy ra từng phần tử để tao thao tác trong ngoặc {}, nên ngoài việc in từng phần tử ta có thể thao tác tùy ý theo từng phần tử tùy theo mục đích sử dụng.
+  
 
 
 
