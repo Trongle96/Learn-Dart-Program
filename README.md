@@ -76,7 +76,7 @@ main(List<String> args) {
 }
 ```
 - Dùng hàm **insert(index, element)** để thêm phần từ vào 1 vị trí cụ thể, ngoài ra còn có thể dùng hàm **addAll()** và **insertAll()** để thêm nhiều phần tử 1 lúc với cách dùng tương tự.
-- Dùng hàm **remove(element)** để xóa phần tử theo đích danh ra khỏi List hoặc **remove(index)** để xóa phần tử theo vị trí trong List, **removeLast()** để xóa phần tử cuối cùng, **removeRange(start,end)** để xóa trong 1 range.
+- Dùng hàm **remove(element)** để xóa phần tử theo đích danh ra khỏi List hoặc **remove(index)** để xóa phần tử theo vị trí trong List, **removeLast()** để xóa phần tử cuối cùng, **removeRange(start,end)** để xóa trong 1 range, **clear()** để xóa hết tất cả phần tử.
 
 
 
