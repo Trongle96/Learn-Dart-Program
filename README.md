@@ -28,11 +28,11 @@ main(List<String> args) {
 Ngoài ra còn có kiểu dữ liệu **num**; **String** và **List** được dùng khi chỉ định rõ ràng kiểu dữ liệu của biến.
 - Khi khai báo **const** thì giá trị của biến là hằng số không thay đổi được.
 ### * Kiểu String
-Hàm **.substring(start,end)** để lấy giá ký tự từ vị trí bắt đầu **(start)** đến ký tự trước vị trí kết thúc **(end)**. Chuỗi String x = "Hello" thì x.substring(0,3) = He.
-Hàm **length** dùng để lấy số ký tự bao gồm khoảng trắng của chuỗi.
-String trong dart là mảng ký tự nên có thể sử dụng như mảng các ký tự để lấy từng ký tự.
-Có thể dùng toán tử **+** để gôp các chuỗi lại với nhau.
-Có thể dùng toán tử **nhân** để lặp lại số lần của 1 chuỗi. Ví dụ ```String newString = name * 3;``` thì khi in chuỗi newString thì từ "Hello" sẽ lặp lại 3 lần.
+- Hàm **.substring(start,end)** để lấy giá ký tự từ vị trí bắt đầu **(start)** đến ký tự trước vị trí kết thúc **(end)**. Chuỗi String x = "Hello" thì x.substring(0,3) = He.
+- Hàm **length** dùng để lấy số ký tự bao gồm khoảng trắng của chuỗi.
+- String trong dart là mảng ký tự nên có thể sử dụng như mảng các ký tự để lấy từng ký tự.
+- Có thể dùng toán tử **+** để gôp các chuỗi lại với nhau.
+- Có thể dùng toán tử **nhân** để lặp lại số lần của 1 chuỗi. Ví dụ ```String newString = name * 3;``` thì khi in chuỗi newString thì từ "Hello" sẽ lặp lại 3 lần.
 
 
 
