@@ -25,7 +25,7 @@ main(List<String> args) {
 }
 ```
 Khai báo ```Var + tên biến``` là  cách khai báo kiểu dữ liệu kiểu Dynamic nghĩa là biến sẽ có thể có nhiều loại dữ liệu ( strin , num , bool,...) tùy theo giá trị ta gán cho biến là kiểu dữ liệu nào như ví dụ trên biến name dc khai báo là var name thì khi gán name là giá trị chuỗi 'Hello' thì trình biên dịch vẫn tự động hiểu.
-Ngoài ra còn có kiểu dữ liệu **num**; **String** và **List**.
+Ngoài ra còn có kiểu dữ liệu **num**; **String** và **List** được dùng khi chỉ định rõ ràng kiểu dữ liệu của biến.
 
 
 
