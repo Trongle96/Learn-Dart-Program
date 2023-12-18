@@ -56,10 +56,28 @@ main(List<String> args) {
   main(List<String> args)
   {
   int randomNumber = Random().nextInt(10) + 1;
-  print(randomNumber); // Kết quả sẽ chạy trong khoảng min = 1 và max = 10.
-- Hàm **random()
+  print(randomNumber); // Kết quả sẽ chạy trong khoảng min = 1 và max = 10.  
+#### * Kiểu List
+- Lists: Được sử dụng để biểu diễn 1 tập các đối tượng. Cẩu trúc **List<Type> variable name** biểu diễn một nhóm các đối tượng được sắp xếp và có thiết kế giống như mảng (array) trong các ngôn ngữ khác.
+- Để add thêm phần tử vào List đối tượng thì ta dùng cách sau:
+```Dart
+main(List<String> args) {
+  List<String> names = ['Trọng', 'Hoàng'];
+  names.add("Lê");
+  print(names);
+}
+```
+- Dùng hàm **add()**  như trên để add phần từ mới vào index cuối cùng hoặc cũng có thể add phần tử mới vào 1 index cụ thể như sau:
+```Dart
+  main(List<String> args) {
+  List<String> names = ['Lê', 'Trọng'];
+  names.insert(1, "Hoàng");
+  print(names);
+}
+```
+- Dùng hàm **insert(index, element)** để thêm phần từ vào 1 vị trí cụ thể, ngoài ra còn có thể dùng hàm **addAll()** và **insertAll()** để thêm nhiều phần tử 1 lúc với cách dùng tương tự.
+- Dùng hàm **remove(element)** để xóa phần tử theo đích danh ra khỏi List hoặc **remove(index)** để xóa phần tử theo vị trí trong List, **removeLast()** để xóa phần tử cuối cùng, **removeRange(start,end)** để xóa trong 1 range.
 
-  
 
 
 
