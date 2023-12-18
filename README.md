@@ -34,6 +34,7 @@ Ngoài ra còn có kiểu dữ liệu **num**; **String** và **List** được 
 - Có thể dùng toán tử **+** để gộp các chuỗi lại với nhau.
 - Có thể dùng toán tử **nhân** để lặp lại số lần của 1 chuỗi. Ví dụ ```String newString = name * 3;``` thì khi in chuỗi newString thì từ "Hello" sẽ lặp lại 3 lần.
 - Hàm **trim()** dùng để loại bỏ các ký tự trắng ở đầu và cuối văn bản.
+- Hàm **split()** dùng để chia nhỏ chuỗi theo 1 tiêu thức nào đò.
 - 
 
 
