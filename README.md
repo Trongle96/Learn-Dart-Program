@@ -87,6 +87,21 @@ main(List<String> args) {
 }
 ```
 - Hàm forEach ở trên là có chức năng duyệt lần lượt từng phần tử và lấy ra từng phần tử để tao thao tác trong ngoặc {}, nên ngoài việc in từng phần tử ta có thể thao tác tùy ý theo từng phần tử tùy theo mục đích sử dụng.
+### 3. Hàm trong Dart
+- Cấu trúc rút gọn của hàm có giá trị trả về ```returnType functionName(parameter) => function body.``` Ví dụ ``` num sum (num a, num b) => a + b.```
+- Một hàm có thế có hai kiểu tham số: required parameter và optional parameter . Required parameter được liệt kê trước theo sau là những optional parameter. Optional parameter có thể là named parameters hoặc positional parameters. Trong một hàm, những named parameters được khai báo bằng dấu ngoặc nhọn {}:
+```Dart
+main(List<String> args) {
+  callMyName(name: 'Trọng');
+}
+
+void callMyName({String a = 'My name is ', String? name}) {
+  print('$a $name');
+}
+```
+- Trong ví dụ trên String a và String name là những named parameters nên được khai báo trong dấu ngoặc {} và param a được khai báo mặc định là 'My name is' còn param name phải được khai báo có thể null thì trình biên dịch mới chạy và nếu param đã có giá trị mặc định thì có thể truyền giá trị khác hoặc không còn param chưa truyền giá trị thì bắt buộc phải truyền vào.
+   
+  
   
 
 
