@@ -25,7 +25,7 @@ main(List<String> args) {
 }
 ```
 - Khai báo ```Var + tên biến``` là  cách khai báo kiểu dữ liệu kiểu Dynamic nghĩa là biến sẽ có thể có nhiều loại dữ liệu ( strin , num , bool,...) tùy theo giá trị ta gán cho biến là kiểu dữ liệu nào như ví dụ trên biến name dc khai báo là var name thì khi gán name là giá trị chuỗi 'Hello' thì trình biên dịch vẫn tự động hiểu.
-Ngoài ra còn có kiểu dữ liệu **num**; **String** và **List** được dùng khi chỉ định rõ ràng kiểu dữ liệu của biến.
+Ngoài ra còn có kiểu dữ liệu **num**; **String** ; **Boolean** và **List** được dùng khi chỉ định rõ ràng kiểu dữ liệu của biến.
 - Khi khai báo **const** thì giá trị của biến là hằng số không thay đổi được.
 #### * Kiểu String
 - Hàm **substring(start,end)** để lấy giá ký tự từ vị trí bắt đầu **(start)** đến ký tự trước vị trí kết thúc **(end)**. Chuỗi String x = "Hello" thì x.substring(0,3) = He.
@@ -49,6 +49,13 @@ main(List<String> args) {
   realNumber = double.parse(stringNum);
   print(integer); //Ket qua 2012
   print(realNumber); //Ket qua 2012.0
+}
+```
+- Hàm **random()** dùng để lấy 1 số ngẫu nhiên. ví dụ về lấy 1 số ngẫu nhiên từ 1 đến 10 ta thực hiện như sau:
+  ```Dart
+  main(List<String> args) {
+  int randomNumber = Random().nextInt(10) + 1;
+  print(randomNumber); // Kết quả sẽ chạy trong khoảng min = 1 và max = 10.
 }
 ```
 
