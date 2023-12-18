@@ -28,7 +28,8 @@ main(List<String> args) {
 Ngoài ra còn có kiểu dữ liệu **num**; **String** và **List** được dùng khi chỉ định rõ ràng kiểu dữ liệu của biến.
 - Khi khai báo **const** thì giá trị của biến là hằng số không thay đổi được.
 ### * Kiểu String
-Hàm **.substring(start,end)** để lấy giá ký tự từ vị trí bắt đầu (start) đến ký tự trước vị trí kết thúc (end). Chuỗi String x = "Hello" thì x.substring(0,3) = He.
+Hàm **.substring(start,end)** để lấy giá ký tự từ vị trí bắt đầu **(start)** đến ký tự trước vị trí kết thúc **(end)**. Chuỗi String x = "Hello" thì x.substring(0,3) = He.
+
 
 
 
