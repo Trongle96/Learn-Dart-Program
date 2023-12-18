@@ -99,7 +99,7 @@ void callMyName({String a = 'My name is ', String? name}) {
   print('$a $name');
 }
 ```
-- Trong ví dụ trên String a và String name là những named parameters nên được khai báo trong dấu ngoặc {} và param a được khai báo mặc định là 'My name is' còn param name phải được khai báo có thể null thì trình biên dịch mới chạy và nếu param đã có giá trị mặc định thì có thể truyền giá trị khác hoặc không còn param chưa truyền giá trị thì bắt buộc phải truyền vào.
+- Trong ví dụ trên String a và String name là những named parameters nên được khai báo trong dấu ngoặc {} và param a được khai báo mặc định là 'My name is' còn param name phải được khai báo có thể null thì trình biên dịch mới chạy và nếu param đã có giá trị mặc định thì có thể truyền giá trị khác hoặc không còn param chưa truyền giá trị thì bắt buộc phải truyền vào. Hoặc hàm trên có thể viết là ```void callMyName({String a = 'My name is ', required String name}) thì param name cũng phải dc truyền vào giá trị để chương trình thực thi.
    
   
   
