@@ -34,9 +34,25 @@ Ngoài ra còn có kiểu dữ liệu **num**; **String** và **List** được 
 - Có thể dùng toán tử **+** để gộp các chuỗi lại với nhau.
 - Có thể dùng toán tử **nhân** để lặp lại số lần của 1 chuỗi. Ví dụ ```String newString = name * 3;``` thì khi in chuỗi newString thì từ "Hello" sẽ lặp lại 3 lần.
 - Hàm **trim()** dùng để loại bỏ các ký tự trắng ở đầu và cuối văn bản.
-- Hàm **split()** dùng để chia nhỏ chuỗi theo 1 tiêu thức nào đò.
+- Hàm **split()** dùng để chia nhỏ chuỗi theo 1 tiêu thức nào đó.  
   
+#### * Kiểu number
+- Hàm **toDouble()** dùng để convert kiểu dữ liệu **int** thành **double** ngoài ra còn có các hàm convert khác tùy theo kiểu dữ liệu convert mong muốn của người dùng.
+- Hàm **round()** dùng để làm tròn số và kết quả trả về sẽ là số nguyên muốn kết quả trả về là số thực thì là hàm **roundtoDouble()**
+- Có thể convert dữ liệu kiểu chuỗi sang int hoặc number bằng cách sau:
+```Dart
+main(List<String> args) {
+  String stringNum = '2012';
+  int? integer;
+  double? realNumber;
+  integer = int.parse(stringNum);
+  realNumber = double.parse(stringNum);
+  print(integer); //Ket qua 2012
+  print(realNumber); //Ket qua 2012.0
+}
+```
 
+  
 
 
 
