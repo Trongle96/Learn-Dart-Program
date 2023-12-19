@@ -81,6 +81,7 @@ main(List<String> args) {
 }
 ```
 - Dùng hàm **add()**  như trên để add phần từ mới vào index cuối cùng hoặc cũng có thể add phần tử mới vào 1 index cụ thể như sau:
+
 ```Dart
   main(List<String> args) {
   List<String> names = ['Lê', 'Trọng'];
