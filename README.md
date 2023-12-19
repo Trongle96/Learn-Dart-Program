@@ -122,7 +122,7 @@ void callMyName({String a = 'My name is ', String? name}) {
   return result;}
 ```
 
-- Tham số tùy chọn được đặt trong cặp ngoặc [] và tùy theo nhu cầu sử dụng mà có thể chọn sử dụng tham số đó bằng cách truyền giá trị vào hoặc mặc định là null, giúp cho việc tái sử dụng hàm với số lượng tham số tùy chọn khác nhau tùy theo mục đích sử dụng.
+``` - Tham số tùy chọn được đặt trong cặp ngoặc [] và tùy theo nhu cầu sử dụng mà có thể chọn sử dụng tham số đó bằng cách truyền giá trị vào hoặc mặc định là null, giúp cho việc tái sử dụng hàm với số lượng tham số tùy chọn khác nhau tùy theo mục đích sử dụng.
    
   
   
