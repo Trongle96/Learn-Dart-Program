@@ -60,6 +60,7 @@ main(List<String> args) {
 #### * Kiểu List
 - [tham khảo](http://o2.edu.vn/kieu-danh-sach-list-trong-dart/)
 - [tham khảo 2](http://fxstudio.dev/list-type-dart-tour/))
+- [tham khả0 3](https://200lab.io/blog/tu-hoc-ngon-dart-collection/)
 - Lists: Được sử dụng để biểu diễn 1 tập các đối tượng. Cẩu trúc **List<Type> variable name** biểu diễn một nhóm các đối tượng được sắp xếp và có thiết kế giống như mảng (array) trong các ngôn ngữ khác.
 - Để add thêm phần tử vào List đối tượng thì ta dùng cách sau:
 ```Dart
