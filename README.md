@@ -57,7 +57,8 @@ main(List<String> args) {
   {
   int randomNumber = Random().nextInt(10) + 1;
   print(randomNumber); // Kết quả sẽ chạy trong khoảng min = 1 và max = 10.  
-#### * Kiểu List [tham khảo](http://https://o2.edu.vn/kieu-danh-sach-list-trong-dart/)
+#### * Kiểu List
+   [tham khảo](http://https://o2.edu.vn/kieu-danh-sach-list-trong-dart/)
 - Lists: Được sử dụng để biểu diễn 1 tập các đối tượng. Cẩu trúc **List<Type> variable name** biểu diễn một nhóm các đối tượng được sắp xếp và có thiết kế giống như mảng (array) trong các ngôn ngữ khác.
 - Để add thêm phần tử vào List đối tượng thì ta dùng cách sau:
 ```Dart
