@@ -58,6 +58,9 @@ main(List<String> args) {
   int randomNumber = Random().nextInt(10) + 1;
   print(randomNumber); // Kết quả sẽ chạy trong khoảng min = 1 và max = 10.  
 #### * Kiểu List
+- [tham khảo](http://o2.edu.vn/kieu-danh-sach-list-trong-dart/)
+- [tham khảo 2](http://fxstudio.dev/list-type-dart-tour/))
+- [tham khả0 3](https://200lab.io/blog/tu-hoc-ngon-dart-collection/)
 - Lists: Được sử dụng để biểu diễn 1 tập các đối tượng. Cẩu trúc **List<Type> variable name** biểu diễn một nhóm các đối tượng được sắp xếp và có thiết kế giống như mảng (array) trong các ngôn ngữ khác.
 - Để add thêm phần tử vào List đối tượng thì ta dùng cách sau:
 ```Dart
@@ -67,7 +70,19 @@ main(List<String> args) {
   print(names);
 }
 ```
+- Cách khai báo để List có 1 độ dài cố định:
+  ```Dart
+  void main() {
+  var trangMieng = List.filled(4,'');
+    
+  trangMieng[0] = 'táo';
+  trangMieng[1] = 'ổi';
+  trangMieng[2] = 'xoài';
+  trangMieng[3] = 'mít';
+}
+```
 - Dùng hàm **add()**  như trên để add phần từ mới vào index cuối cùng hoặc cũng có thể add phần tử mới vào 1 index cụ thể như sau:
+
 ```Dart
   main(List<String> args) {
   List<String> names = ['Lê', 'Trọng'];
@@ -100,7 +115,19 @@ void callMyName({String a = 'My name is ', String? name}) {
 }
 ```
 - Trong ví dụ trên String a và String name là những named parameters nên được khai báo trong dấu ngoặc {} và param a được khai báo mặc định là 'My name is' còn param name phải được khai báo có thể null thì trình biên dịch mới chạy và nếu param đã có giá trị mặc định thì có thể truyền giá trị khác hoặc không còn param chưa truyền giá trị thì bắt buộc phải truyền vào. Hoặc hàm trên có thể viết là ```void callMyName({String a = 'My name is ', required String name}) thì param name cũng phải dc truyền vào giá trị để chương trình thực thi.
-   
+- Sau đây là ví dụ về 1 tham số positional parameters:
+  ```Dart
+  String say(String from, String msg, [String? device]) {
+  var result = '$from says $msg';
+  if (device != null) {
+    result = '$result with a $device';
+  }
+  return result;}
+
+- Tham số tùy chọn được đặt trong cặp ngoặc [] và tùy theo nhu cầu sử dụng mà có thể chọn sử dụng tham số đó bằng cách truyền giá trị vào hoặc mặc định là null, giúp cho việc tái sử dụng hàm với số lượng tham số tùy chọn khác nhau tùy theo mục đích sử dụng.
+
+ ### 4. Class and Object. 
+  [tham khảo](http://200lab.io/blog/tu-hoc-ngon-ngu-dart-classes/)
   
   
 
