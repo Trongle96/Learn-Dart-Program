@@ -53,6 +53,7 @@ class Truck extends Vehicle {
   Truck(num? id, String? manufacturer, num? year, num? price, String? color,
       this._loading)
       : super(id, manufacturer, year, price, color);
+
   void output() {
     print('======================================');
     super.ouput();
